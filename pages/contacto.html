@@ -26,7 +26,7 @@
       <div>
         <nav class="navbar navbar-expand-lg backgroundColor">
           <div class="container-fluid ">
-            <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/LOGO.jpg" alt="logo"></a>
+            <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/LOGO.jpg" alt="Logo de la empresa"></a>
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -57,41 +57,39 @@
     </header>
 
     <main>
-      <div class="contacto">
-        <div class="datos">
-          <h2>Algunas de nuestras vías de comunicación</h2>
-          <ul>
-            <li>Telénono: 222-22222222</li>
-            <li>Email: arquitectos@gmail.com</li>
-            <li>Facebook:</li>
-            <li>Instagram:</li>
-            <li>Twitter:</li>
-          </ul>
+      <h1>Contáctanos</h1>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="inputName">
         </div>
-        <div>
-          <h2>Contáctanos</h2>
-          <form action="" class="formulario">
-            <label for="">Nombre:</label>
-
-            <input type="text">
-            <label for="">Teléfono:</label>
-
-            <input type="text">
-            <label for="">Correo electrónico:</label>
-
-            <input type="email">
-            <label for="">Mensaje:</label>
-            <br>
-            <textarea name=""></textarea>
-            <input type="submit" value="Enviar">
-          </form>
+        <div class="col-md-6">
+          <label for="inputLastName" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="inputLastName">
         </div>
-      </div>
+        <div class="col-md-6">
+          <label for="inputPhone" class="form-label">Teléfono</label>
+          <input type="text" class="form-control" id="inputPhone">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
     </main>
     <footer>
       <p>&copy;2023 @arquitectos | Todos los Derechos Reservados</p>
     </footer>
   </div>
+  </div>
+
   <!-- bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
